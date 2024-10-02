@@ -4,8 +4,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
   mode: "production",
   entry: {
-    index: { import: './src/js/main.js' },
-    nesto: { import: './src/js/home.js' },
+    main: { import: './src/js/main.js' },
+    home: { import: './src/js/home.js' },
   }, 
   output: {
     clean: true,
