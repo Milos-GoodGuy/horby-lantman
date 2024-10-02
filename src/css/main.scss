@@ -1,0 +1,11 @@
+$body-color: blue;
+
+body{
+    background: $body-color;
+}
+
+.example{
+    display: grid;
+    transition: all 0.2s;
+    user-select: none;
+}
