@@ -6,6 +6,9 @@ module.exports = {
   entry: {
     main: { import: './src/js/main.js' },
     home: { import: './src/js/home.js' },
+    omOss: { import: './src/js/omOss.js' },
+    lantbruk: { import: './src/js/lantbruk.js' },
+    lantbrukSpannmal: { import: './src/js/lantbrukSpannmal.js' },
   }, 
   output: {
     clean: true,
@@ -26,6 +29,13 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /\.css$/i, // Rule for .css files
+        use: [
+          'style-loader', // Injects styles into the DOM
+          'css-loader'    // Interprets @import and url() like import/require() and will resolve them
+        ],
       },
       {
         test: /\.scss$/i,

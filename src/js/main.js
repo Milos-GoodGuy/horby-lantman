@@ -1,5 +1,9 @@
 
+// CSS import
 import '../css/main.scss'
+
+// JavaScript import 
+import './components/navbar.js'
 
 
 

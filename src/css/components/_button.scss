@@ -58,6 +58,11 @@
     
   }
 
+  &[data-background="green"]{
+    background-color: #23A73F;
+    border-color: #23A73F;
+  }
+
   &[data-reverse-colors="true"]{
     --swatch--black: #fff;
     --swatch--white: #191919;

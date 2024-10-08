@@ -2,7 +2,10 @@
 
 
 h2{
-    @media screen and (max-width: 767px){
-        hyphens: auto;
-    }
+  -webkit-hyphens: auto;
+  hyphens: auto;
+    // @media screen and (max-width: 767px){
+    //     -webkit-hyphens: auto;
+    //     hyphens: auto;
+    // }
 }
