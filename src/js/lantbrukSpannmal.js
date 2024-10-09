@@ -1,3 +1,3 @@
 
-import '../css/lantbrukSpannmal.scss'
+import '../css/lantbruk-spannmal.scss'
 

@@ -9,6 +9,12 @@ module.exports = {
     omOss: { import: './src/js/omOss.js' },
     lantbruk: { import: './src/js/lantbruk.js' },
     lantbrukSpannmal: { import: './src/js/lantbrukSpannmal.js' },
+    spannmal: { import: './src/js/spannmal.js' },
+    skordeanalyser: { import: './src/js/skordeanalyser.js' },
+    foder: { import: './src/js/foder.js' },
+    byggButik: { import: './src/js/byggButik.js' },
+    offertformular: { import: './src/js/offertformular.js' },
+    energi: { import: './src/js/energi.js' },
   }, 
   output: {
     clean: true,
