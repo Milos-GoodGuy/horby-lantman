@@ -14,7 +14,7 @@ const pharmacySwiper = new Swiper('.oss-pharmacy__slider', {
 
 function initHistorySwiper() {
   const screenWidth = window.innerWidth;
-  const historySwiper = new Swiper('.swiper', {
+  const historySwiper = new Swiper('.oss-history__slider-main', {
     modules: [Navigation],
     slidesPerView: 'auto',
     spaceBetween: screenWidth > 991 ? 120 : 80,

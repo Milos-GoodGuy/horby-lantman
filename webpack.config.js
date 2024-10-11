@@ -15,6 +15,9 @@ module.exports = {
     byggButik: { import: './src/js/byggButik.js' },
     offertformular: { import: './src/js/offertformular.js' },
     energi: { import: './src/js/energi.js' },
+    dieselSmorjolja: { import: './src/js/dieselSmorjolja.js' },
+    pallets: { import: './src/js/pallets.js' },
+    kontaktaOss: { import: './src/js/kontaktaOss.js' },
   }, 
   output: {
     clean: true,
