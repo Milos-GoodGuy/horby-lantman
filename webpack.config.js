@@ -18,6 +18,10 @@ module.exports = {
     dieselSmorjolja: { import: './src/js/dieselSmorjolja.js' },
     pallets: { import: './src/js/pallets.js' },
     kontaktaOss: { import: './src/js/kontaktaOss.js' },
+    bonuskund: { import: './src/js/bonuskund.js' },
+    minaSidor: { import: './src/js/minaSidor.js' },
+    personuppgiftspolicy: { import: './src/js/personuppgiftspolicy.js' },
+    cookiepolicy: { import: './src/js/cookiepolicy.js' },
   }, 
   output: {
     clean: true,
