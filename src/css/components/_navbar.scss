@@ -1,3 +1,20 @@
+.nav__wrapper{
+  @media screen and (max-width: 1065px){
+    grid-column-gap: 1rem;
+  }
+  .brand {
+    @media screen and (max-width: 1065px){
+      width: 8.125rem;
+    }
+    @media screen and (max-width: 991px){
+      width: 9.125rem;
+    }
+    @media screen and (max-width: 767px){
+      width: 6.5rem;
+    }
+  }
+}
+
 .dropdown-open{
   .nav__menu__dropdown__content{
     max-height: 700px;
