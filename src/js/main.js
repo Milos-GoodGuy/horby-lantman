@@ -21,10 +21,10 @@ $('img').each(function(){
 /////////////////////////////////////////
 // Disable submitting form fields during development
 ////////////////////////////////////////
-$('form').submit(function() {
-  alert('Form submissions have been disabled during development.');
-  return false;
-});
+// $('form').submit(function() {
+//   alert('Form submissions have been disabled during development.');
+//   return false;
+// });
   
 
 /////////////////////////////////////////

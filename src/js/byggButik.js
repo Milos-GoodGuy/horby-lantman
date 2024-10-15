@@ -1,4 +1,5 @@
 import '../css/bygg-butik.scss'
+import '../css/components/_campaign.scss'
 
 // match value of custom attribute "data-category" between the button and the content block
 function handleFilterClick() {
