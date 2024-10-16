@@ -22,6 +22,7 @@ module.exports = {
     minaSidor: { import: './src/js/minaSidor.js' },
     personuppgiftspolicy: { import: './src/js/personuppgiftspolicy.js' },
     cookiepolicy: { import: './src/js/cookiepolicy.js' },
+    kaminerPannor: { import: './src/js/kaminerPannor.js' },
   }, 
   output: {
     clean: true,
